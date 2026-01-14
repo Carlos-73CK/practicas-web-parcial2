@@ -1,0 +1,47 @@
+# --- Node / Nest ---
+node_modules/
+**/node_modules/
+
+# Build outputs
+/dist/
+**/dist/
+/build/
+**/build/
+
+# Coverage
+coverage/
+**/coverage/
+.nyc_output/
+**/.nyc_output/
+
+# Logs
+logs/
+**/logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Env files (keep examples)
+.env
+.env.*
+!.env.example
+
+# Local DB files
+*.sqlite
+*.sqlite3
+*.db
+
+# IDE / Editor
+.vscode/
+.idea/
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+**/.env.docker
